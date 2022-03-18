@@ -1,0 +1,37 @@
+.todo-container{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    gap: 0;
+    width: 50%;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+.todo-task{
+    width: 80%;
+}
+
+.complete{
+    width: 10%;
+    background-color: #ff6f47;
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 0.7rem 1rem;
+}
+
+.delete-task{
+    width: 10%;
+    background-color: #ff0000a8;
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 0.7rem 1rem;
+    border-radius: 0 10px 10px 0;
+}
+
+.completed-task{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
